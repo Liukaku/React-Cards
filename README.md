@@ -1,3 +1,3 @@
-# Basic Example
+# React Testing
 
-A simple [create-react-app](CRA-README.md) setup, showcasing one of the lastest React-Bootstrap components!
+A simple react card set up for testing
