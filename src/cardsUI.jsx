@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "../src/assets/stock.jpeg";
 
 import "./index.css";
 
@@ -7,10 +6,10 @@ const Card = props => {
   return (
     <div className="card text-center">
       <div className="overflow">
-        <img src={img1} alt="" />
+        <img src={props.imgsrc} className="image-top" alt="" />
       </div>
       <div className="card-body text-dark">
-        <h4 className="card-title">Test Text</h4>
+        <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
           expedita odit laborum perspiciatis mollitia ipsum amet minima sit ad
